@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		784A9A391F3B9F7A00E22B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A9A381F3B9F7A00E22B0A /* AppDelegate.swift */; };
-		784A9A3B1F3B9F7A00E22B0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A9A3A1F3B9F7A00E22B0A /* ViewController.swift */; };
+		784A9A3B1F3B9F7A00E22B0A /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A9A3A1F3B9F7A00E22B0A /* RecordSoundsViewController.swift */; };
 		784A9A3E1F3B9F7A00E22B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784A9A3C1F3B9F7A00E22B0A /* Main.storyboard */; };
 		784A9A401F3B9F7A00E22B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784A9A3F1F3B9F7A00E22B0A /* Assets.xcassets */; };
 		784A9A431F3B9F7A00E22B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784A9A411F3B9F7A00E22B0A /* LaunchScreen.storyboard */; };
 		784A9A4E1F3B9F7A00E22B0A /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A9A4D1F3B9F7A00E22B0A /* PitchPerfectTests.swift */; };
 		784A9A591F3B9F7B00E22B0A /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A9A581F3B9F7B00E22B0A /* PitchPerfectUITests.swift */; };
+		784A9A671F3BF0A800E22B0A /* AudioplaybackviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A9A661F3BF0A800E22B0A /* AudioplaybackviViewController.swift */; };
+		784A9A691F3C0F6100E22B0A /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A9A681F3C0F6100E22B0A /* PlaySoundsViewController.swift */; };
+		784A9A6D1F3E506500E22B0A /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784A9A6C1F3E506500E22B0A /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		784A9A351F3B9F7A00E22B0A /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		784A9A381F3B9F7A00E22B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		784A9A3A1F3B9F7A00E22B0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		784A9A3A1F3B9F7A00E22B0A /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		784A9A3D1F3B9F7A00E22B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		784A9A3F1F3B9F7A00E22B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		784A9A421F3B9F7A00E22B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		784A9A541F3B9F7B00E22B0A /* PitchPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		784A9A581F3B9F7B00E22B0A /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		784A9A5A1F3B9F7B00E22B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784A9A661F3BF0A800E22B0A /* AudioplaybackviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioplaybackviViewController.swift; sourceTree = "<group>"; };
+		784A9A681F3C0F6100E22B0A /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		784A9A6C1F3E506500E22B0A /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		784A9A2C1F3B9F7A00E22B0A = {
 			isa = PBXGroup;
 			children = (
+				784A9A661F3BF0A800E22B0A /* AudioplaybackviViewController.swift */,
 				784A9A371F3B9F7A00E22B0A /* PitchPerfect */,
 				784A9A4C1F3B9F7A00E22B0A /* PitchPerfectTests */,
 				784A9A571F3B9F7B00E22B0A /* PitchPerfectUITests */,
@@ -98,11 +105,13 @@
 			isa = PBXGroup;
 			children = (
 				784A9A381F3B9F7A00E22B0A /* AppDelegate.swift */,
-				784A9A3A1F3B9F7A00E22B0A /* ViewController.swift */,
+				784A9A3A1F3B9F7A00E22B0A /* RecordSoundsViewController.swift */,
 				784A9A3C1F3B9F7A00E22B0A /* Main.storyboard */,
 				784A9A3F1F3B9F7A00E22B0A /* Assets.xcassets */,
 				784A9A411F3B9F7A00E22B0A /* LaunchScreen.storyboard */,
 				784A9A441F3B9F7A00E22B0A /* Info.plist */,
+				784A9A681F3C0F6100E22B0A /* PlaySoundsViewController.swift */,
+				784A9A6C1F3E506500E22B0A /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				784A9A3B1F3B9F7A00E22B0A /* ViewController.swift in Sources */,
+				784A9A3B1F3B9F7A00E22B0A /* RecordSoundsViewController.swift in Sources */,
+				784A9A6D1F3E506500E22B0A /* playsoundsviewcontroller-audio.swift in Sources */,
 				784A9A391F3B9F7A00E22B0A /* AppDelegate.swift in Sources */,
+				784A9A691F3C0F6100E22B0A /* PlaySoundsViewController.swift in Sources */,
+				784A9A671F3BF0A800E22B0A /* AudioplaybackviViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
